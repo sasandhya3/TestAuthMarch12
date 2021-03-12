@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\Users\sandhya.sa\eclipse-workspace\Auth\testng.xml</span>
+                    <span>C:\My_Software\New folder\Auth\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -127,61 +127,22 @@
                   <a name="clasTest">
                   </a> <!-- clasTest -->
                   <span class="method-name">clasTest</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 87
-Current browser version is 89.0.4389.82 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=89.0.4389.82)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;BLR-75H4473&apos;, ip: &apos;172.20.10.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x00AAC0C3+3326147]
-	Ordinal0 [0x00990851+2164817]
-	Ordinal0 [0x00817298+619160]
-	Ordinal0 [0x00791D92+73106]
-	Ordinal0 [0x0078E119+57625]
-	Ordinal0 [0x0078C38A+50058]
-	Ordinal0 [0x007B5F3E+220990]
-	Ordinal0 [0x007B5CAC+220332]
-	Ordinal0 [0x007B189B+202907]
-	Ordinal0 [0x00793DF4+81396]
-	Ordinal0 [0x00794DEE+85486]
-	Ordinal0 [0x00794D79+85369]
-	Ordinal0 [0x009A85DC+2262492]
-	GetHandleVerifier [0x00C32874+1487204]
-	GetHandleVerifier [0x00C323CD+1486013]
-	GetHandleVerifier [0x00C3A368+1518680]
-	GetHandleVerifier [0x00C32F4E+1488958]
-	Ordinal0 [0x0099ED0D+2223373]
-	Ordinal0 [0x009AA12B+2269483]
-	Ordinal0 [0x009AA26F+2269807]
-	Ordinal0 [0x009BECB8+2354360]
-	BaseThreadInitThunk [0x76EF6359+25]
-	RtlGetAppContainerNamedObjectPath [0x77378964+228]
-	RtlGetAppContainerNamedObjectPath [0x77378934+180]
-
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\sandhya.sa\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:65189}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 8745a64b82b3e068ebee83387eb...}
+Session ID: 8745a64b82b3e068ebee83387eb164a2
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at TestNGAuth.Auth.HomePage.openBrowser(HomePage.java:10)
-	at TestNGAuth.Auth.ClassLogin.classCheck(ClassLogin.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)
+	at TestNGAuth.Auth.ClassLogin.classCheck(ClassLogin.java:43)
 	at TestNGAuth.Auth.ClassCleverLoginTest.clasTest(ClassCleverLoginTest.java:12)
 ... Removed 28 stack frames
 </div> <!-- stack-trace -->
@@ -192,7 +153,7 @@ remote stacktrace: Backtrace:
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\sandhya.sa\eclipse-workspace\Auth\testng.xml</span>
+            <span class="header-content">C:\My_Software\New folder\Auth\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -245,12 +206,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'clasTest')
 data.setCell(0, 2, 'TestNGAuth.Auth.ClassCleverLoginTest')
-data.setCell(0, 3, 3625);
+data.setCell(0, 3, 9399);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->

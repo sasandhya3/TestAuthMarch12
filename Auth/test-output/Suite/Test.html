@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Mar 12 21:37:13 IST 2021</td>
+<td>Started on:</td><td>Fri Mar 12 22:29:12 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>3 seconds (3648 ms)</td>
+<tr><td>Total time:</td><td>9 seconds (9426 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,122 +76,44 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='TestNGAuth.Auth.ClassCleverLoginTest.clasTest()'><b>clasTest</b><br>Test class: TestNGAuth.Auth.ClassCleverLoginTest</td>
-<td><div><pre>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 87
-Current browser version is 89.0.4389.82 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+<td><div><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=89.0.4389.82)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;BLR-75H4473&apos;, ip: &apos;172.20.10.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x00AAC0C3+3326147]
-	Ordinal0 [0x00990851+2164817]
-	Ordinal0 [0x00817298+619160]
-	Ordinal0 [0x00791D92+73106]
-	Ordinal0 [0x0078E119+57625]
-	Ordinal0 [0x0078C38A+50058]
-	Ordinal0 [0x007B5F3E+220990]
-	Ordinal0 [0x007B5CAC+220332]
-	Ordinal0 [0x007B189B+202907]
-	Ordinal0 [0x00793DF4+81396]
-	Ordinal0 [0x00794DEE+85486]
-	Ordinal0 [0x00794D79+85369]
-	Ordinal0 [0x009A85DC+2262492]
-	GetHandleVerifier [0x00C32874+1487204]
-	GetHandleVerifier [0x00C323CD+1486013]
-	GetHandleVerifier [0x00C3A368+1518680]
-	GetHandleVerifier [0x00C32F4E+1488958]
-	Ordinal0 [0x0099ED0D+2223373]
-	Ordinal0 [0x009AA12B+2269483]
-	Ordinal0 [0x009AA26F+2269807]
-	Ordinal0 [0x009BECB8+2354360]
-	BaseThreadInitThunk [0x76EF6359+25]
-	RtlGetAppContainerNamedObjectPath [0x77378964+228]
-	RtlGetAppContainerNamedObjectPath [0x77378934+180]
-
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\sandhya.sa\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:65189}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 8745a64b82b3e068ebee83387eb...}
+Session ID: 8745a64b82b3e068ebee83387eb164a2
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at TestNGAuth.Auth.HomePage.openBrowser(HomePage.java:10)
-	at TestNGAuth.Auth.ClassLogin.classCheck(ClassLogin.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)
+	at TestNGAuth.Auth.ClassLogin.classCheck(ClassLogin.java:43)
 	at TestNGAuth.Auth.ClassCleverLoginTest.clasTest(ClassCleverLoginTest.java:12)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace220454978", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace220454978'><pre>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 87
-Current browser version is 89.0.4389.82 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace348055829", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace348055829'><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=89.0.4389.82)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;BLR-75H4473&apos;, ip: &apos;172.20.10.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x00AAC0C3+3326147]
-	Ordinal0 [0x00990851+2164817]
-	Ordinal0 [0x00817298+619160]
-	Ordinal0 [0x00791D92+73106]
-	Ordinal0 [0x0078E119+57625]
-	Ordinal0 [0x0078C38A+50058]
-	Ordinal0 [0x007B5F3E+220990]
-	Ordinal0 [0x007B5CAC+220332]
-	Ordinal0 [0x007B189B+202907]
-	Ordinal0 [0x00793DF4+81396]
-	Ordinal0 [0x00794DEE+85486]
-	Ordinal0 [0x00794D79+85369]
-	Ordinal0 [0x009A85DC+2262492]
-	GetHandleVerifier [0x00C32874+1487204]
-	GetHandleVerifier [0x00C323CD+1486013]
-	GetHandleVerifier [0x00C3A368+1518680]
-	GetHandleVerifier [0x00C32F4E+1488958]
-	Ordinal0 [0x0099ED0D+2223373]
-	Ordinal0 [0x009AA12B+2269483]
-	Ordinal0 [0x009AA26F+2269807]
-	Ordinal0 [0x009BECB8+2354360]
-	BaseThreadInitThunk [0x76EF6359+25]
-	RtlGetAppContainerNamedObjectPath [0x77378964+228]
-	RtlGetAppContainerNamedObjectPath [0x77378934+180]
-
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\sandhya.sa\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:65189}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 8745a64b82b3e068ebee83387eb...}
+Session ID: 8745a64b82b3e068ebee83387eb164a2
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at TestNGAuth.Auth.HomePage.openBrowser(HomePage.java:10)
-	at TestNGAuth.Auth.ClassLogin.classCheck(ClassLogin.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)
+	at TestNGAuth.Auth.ClassLogin.classCheck(ClassLogin.java:43)
 	at TestNGAuth.Auth.ClassCleverLoginTest.clasTest(ClassCleverLoginTest.java:12)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -218,7 +140,7 @@ remote stacktrace: Backtrace:
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
-<td>3</td>
+<td>9</td>
 <td>TestNGAuth.Auth.ClassCleverLoginTest@32d992b2</td></tr>
 </table><p>
 </body>
