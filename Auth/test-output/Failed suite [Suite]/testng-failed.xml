@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite]]">
+  <test name="Test(failed)(failed)">
+    <classes>
+      <class name="TestNGAuth.Auth.ClassCleverLoginTest">
+        <methods>
+          <include name="clasTest"/>
+          <include name="cleverTest"/>
+        </methods>
+      </class> <!-- TestNGAuth.Auth.ClassCleverLoginTest -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
