@@ -5,7 +5,7 @@
     <classes>
       <class name="TestNGAuth.Auth.ClassCleverLoginTest">
         <methods>
-          <include name="clasTest"/>
+          <include name="cleverTest"/>
         </methods>
       </class> <!-- TestNGAuth.Auth.ClassCleverLoginTest -->
     </classes>

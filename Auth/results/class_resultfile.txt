@@ -1,0 +1,47 @@
+
+ -------------------------------------------------------------
+Role= Support, SchoolCity (Role: undefined)
+Classlink***Staff***Alief Independent School District***Test pass
+Classlink***Student***Alief Independent School District***Test pass
+ -------------------------------------------------------------
+Role= Support, SchoolCity (Role: School)
+Classlink***Staff***Bradford Schools***Test pass
+Classlink***Student***Bradford Schools***Test pass
+ -------------------------------------------------------------
+Role= Support, SchoolCity (Role: District)
+Classlink***Staff***Dougherty County School System***Test pass
+Classlink***Student***Dougherty County School System***Test pass
+ -------------------------------------------------------------
+Role= Support, SchoolCity (Role: Admin)
+Classlink***Staff***Forsyth County Schools***Test pass
+Classlink***Student***Forsyth County Schools***Test pass
+ -------------------------------------------------------------
+Role= Support, SchoolCity (Role: Admin)
+Classlink***Staff***School District of Osceola County***Test pass
+Classlink***Student***School District of Osceola County***Test pass
+ -------------------------------------------------------------
+Role= Support, SchoolCity (Role: Admin)
+Classlink***Staff***Volusia County Schools***Test pass
+Classlink***Student***Volusia County Schools***Test pass
+ -------------------------------------------------------------
+Role= Support, SchoolCity (Role: undefined)
+Classlink***Staff***FWISD Leadership Academy Network***Test pass
+Classlink***Student***FWISD Leadership Academy Network***Test pass
+ -------------------------------------------------------------
+Role= Support, SchoolCity (Role: District)
+Classlink***Staff***Modesto City Schools***Test pass
+ error message contentSorry, but it appears that you do not currently have access to SchoolCity. If you feel this is an error please contact the DISTRICT Service Desk.
+Classlink***Student***Modesto City Schools***Error Login
+ -------------------------------------------------------------
+Role= Support, SchoolCity (Role: Teacher)
+Classlink***Staff***Lawndale Elementary***Test pass
+ error message contentSorry, but it appears that you do not currently have access to SchoolCity. If you feel this is an error please contact the DISTRICT Service Desk.
+Classlink***Student***Lawndale Elementary***Error Login
+ -------------------------------------------------------------
+Role= Support, SchoolCity (Role: Teacher)
+Classlink***Staff***Pine Tree ISD***Test pass
+Classlink***Student***Pine Tree ISD***Test pass
+ -------------------------------------------------------------
+Role= City, School (Role: (T) Teacher)
+Classlink***Staff***Salem Public Schools***Test pass
+Classlink***Student***Salem Public Schools***Test pass

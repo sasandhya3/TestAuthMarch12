@@ -1,7 +1,6 @@
 package TestNGAuth.Auth;
 
 import java.io.IOException;
-
 import org.testng.annotations.Test;
 
 public class ClassCleverLoginTest {
@@ -11,9 +10,9 @@ public class ClassCleverLoginTest {
 		ClassLogin cl=new ClassLogin();
 		cl.classCheck();
 	}
-	/*@Test
+	@Test
 	public void cleverTest() throws InterruptedException, IOException {
 		CleverLogin cl=new CleverLogin();
-		cl.cleverCheck();*/
-	
+		cl.cleverCheck();
+	}
 }
